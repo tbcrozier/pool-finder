@@ -208,4 +208,6 @@ __marimo__/
 
 
 images/
+data/
 parcel_centroids_37205.csv 
+parcel_results_37205.json 

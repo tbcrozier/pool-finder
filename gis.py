@@ -1,5 +1,6 @@
 import requests
 import csv
+import json
 import os
 from statistics import mean
 
@@ -22,6 +23,10 @@ data = {
 
 response = requests.post(url, data=data)
 results = response.json()["features"]
+
+# View the results from arcgis
+with open("parcel_results_37205.json", "w") as json_out:
+    json.dump(results, json_out, indent=2)
 
 # Step 2: Helper to compute centroid from polygon ring
 def compute_centroid(rings):
@@ -82,3 +87,13 @@ with open("parcel_centroids_37205.csv", "w", newline="") as f:
         })
 
 print("✅ Done. CSV and images saved.")
+
+
+
+
+
+
+
+
+
+
