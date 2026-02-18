@@ -6,7 +6,7 @@ from PIL import Image
 import pandas as pd
 
 # === Configuration ===
-image_folder = "images"
+image_folder = "images/37215"  # Change to your image folder
 model_path = "pool_classifier.pth"
 output_csv = "predictions.csv"
 class_names = ['no_pool', 'pool']
@@ -50,5 +50,8 @@ for image_file in image_files:
 
 # === Save to CSV ===
 df = pd.DataFrame(results)
-df.to_csv(output_csv, index=False)
+df.sort_values(by=['prediction', 'confidence'], ascending=[True, False]).to_csv('sorted_predictions.csv', index=False)
+
+# df.to_csv(output_csv, index=False)
+
 print(f"Saved predictions to {output_csv}")

@@ -182,9 +182,9 @@ cython_debug/
 .abstra/
 
 # Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
+#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
+#  and can be added to the global gitignore or merged into this file. However, if you prefer,
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
@@ -207,7 +207,24 @@ marimo/_lsp/
 __marimo__/
 
 
+# Project-specific
+
+# macOS
+.DS_Store
+
+# Virtual environment
+.venv-pools/
+
+# Training data and images (large files)
 images/
 data/
-parcel_centroids_37205.csv 
-parcel_results_37205.json 
+
+# Model weights (large files)
+*.pth
+
+# Generated data files
+parcel_centroids_*.csv
+parcel_results_*.json
+sorted_predictions.csv
+predictions.csv
+missing_predictions.csv
