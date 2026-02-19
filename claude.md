@@ -1,87 +1,134 @@
-1# Pool Finder
+# Pool Finder
 
-A machine learning project to detect swimming pools in residential parcels using satellite imagery, targeting Nashville/Davidson County properties.
+Detect swimming pools in residential parcels using satellite imagery and Claude Vision API. Targets Nashville/Davidson County properties.
 
-## Project Overview
+## Goal
 
-This project uses a MobileNetV2 CNN (transfer learning) to classify aerial/satellite images as either containing a pool (`pool_in_parcel`) or not (`no_pool`). The workflow involves:
-1. Fetching parcel data from Nashville GIS
-2. Downloading satellite imagery from Google Maps Static API
-3. Training/using a binary image classifier
+**Input**: A ZIP code
+**Output**: CSV of addresses with pools, owner names, and verification links
+
+Example output:
+```
+Address,Owner,ParcelID,HasPool,Confidence,ImagePath,GoogleMapsURL
+123 Main St,John Doe,12345,pool,high,images/37205_boundaries/12345.png,https://google.com/maps/...
+```
+
+**Use case**: Sell pool owner lists to pool cleaning companies.
+
+---
+
+## The Pipeline
+
+```
+ZIP Code → Download Images → Draw Boundaries → Claude Vision → Report CSV
+              (gis.py)     (overlay_boundaries.py)  (claude_vision_classify.py)
+```
+
+| Step | Script | What it does |
+|------|--------|--------------|
+| 1 | `gis.py` | Fetches parcel data from Nashville GIS + downloads satellite images |
+| 2 | `overlay_boundaries.py` | Draws red parcel boundary on each image |
+| 3 | `claude_vision_classify.py` | Asks Claude "is there a pool inside the red boundary?" |
+| 4 | Manual | Generate report CSV, spot-check results via links |
+
+---
+
+## Quick Start
+
+```bash
+# 1. Activate environment
+source .venv-pools/bin/activate
+
+# 2. Download parcels + images for a ZIP code (edit zipcode in gis.py)
+python gis.py
+
+# 3. Add boundary overlays
+python overlay_boundaries.py --zipcode 37205
+
+# 4. Run Claude Vision classification
+python claude_vision_classify.py --image-folder images/37205_boundaries --output predictions_37205.csv
+
+# 5. Generate report (see "Generating the Report" below)
+```
+
+---
 
 ## File Structure
 
 ```
 pool-finder/
-├── gis.py              # Fetches parcel data and downloads satellite images
-├── train_classifier.py # Trains the MobileNetV2 pool classifier
-├── predict_images.py   # Runs inference on new images
-├── result_sort.py      # Organizes prediction results into folders
-├── data/               # Training/validation/test datasets (gitignored)
-│   ├── train/
-│   ├── valid/
-│   └── test/
-├── images/             # Downloaded satellite images by ZIP code (gitignored)
-├── etc/                # Reference data (davidson-zips.csv)
-└── pool_classifier.pth # Trained model weights (gitignored)
+├── gis.py                      # Downloads parcel data + satellite images
+├── overlay_boundaries.py       # Draws boundary lines on images
+├── claude_vision_classify.py   # Claude Vision pool detection
+├── etc/davidson-zips.csv       # List of Nashville ZIP codes
+├── images/
+│   ├── {zipcode}/              # Raw satellite images
+│   └── {zipcode}_boundaries/   # Images with red boundary overlay
+├── parcel_centroids_{zip}.csv  # Parcel metadata (address, owner, lat/lng)
+├── parcel_results_{zip}.json   # Raw GIS geometry data
+├── predictions_{zip}.csv       # Claude's predictions
+├── pool_report_{zip}.csv       # Full report with links
+└── pools_only_{zip}.csv        # Just parcels with pools
 ```
 
-## Key Components
+---
 
-### gis.py
-- Queries Nashville GIS ArcGIS REST API for parcels by ZIP code
-- Computes parcel centroids from polygon geometry
-- Converts Web Mercator coordinates to lat/lng
-- Downloads satellite images via Google Maps Static API
-- Outputs CSV with parcel metadata and image paths
+## Environment Setup
 
-### train_classifier.py
-- Uses PyTorch with MobileNetV2 pretrained backbone
-- Trains on ImageFolder datasets (train/valid/test splits)
-- Uses MPS (Apple Silicon GPU) when available
-- Saves best model to `pool_classifier.pth`
-
-### predict_images.py
-- Loads trained model and runs inference on image folders
-- Outputs predictions with confidence scores to CSV
-- Class names: `['no_pool', 'pool']`
-
-### result_sort.py
-- Copies images into `pool/` or `no_pool/` folders based on predictions
-
-## Tech Stack
-
-- **Python 3** with PyTorch, torchvision
-- **MobileNetV2** for efficient image classification
-- **Nashville Open Data** (ArcGIS REST services) for parcel boundaries
-- **Google Maps Static API** for satellite imagery
-
-## Environment
-
-- Requires `GOOGLE_MAPS_API_KEY` environment variable for image downloads
-- Uses MPS (Metal Performance Shaders) on Apple Silicon, falls back to CPU
-- Virtual environment: `.venv-pools/`
-
-## Dataset Classes
-
-- `pool_in_parcel` - Aerial images showing a pool within the parcel
-- `no_pool` - Aerial images with no pool visible
-
-## Common Commands
-
+Required environment variables in `~/.zshrc`:
 ```bash
-# Activate virtual environment
-source .venv-pools/bin/activate
-
-# Train the classifier
-python train_classifier.py
-
-# Run predictions on images
-python predict_images.py
-
-# Fetch parcel data and images for a ZIP code (edit zipcode in gis.py)
-python gis.py
-
-# Sort prediction results into folders
-python result_sort.py
+export GOOGLE_MAPS_API_KEY='your-google-api-key'
+export ANTHROPIC_API_KEY='your-anthropic-api-key'
 ```
+
+Python packages:
+```bash
+pip install anthropic Pillow
+```
+
+---
+
+## Generating the Report
+
+After running predictions, join with parcel data to create the final report:
+
+```python
+import pandas as pd
+
+predictions = pd.read_csv('predictions_37205.csv')
+parcels = pd.read_csv('parcel_centroids_37205.csv')
+
+predictions['ParcelID'] = predictions['filename'].str.replace('.png', '')
+merged = predictions.merge(parcels, on='ParcelID', how='left')
+
+merged['google_maps_url'] = merged.apply(
+    lambda r: f"https://www.google.com/maps/@{r['Latitude']},{r['Longitude']},20z/data=!3m1!1e3",
+    axis=1
+)
+merged['image_path'] = 'images/37205_boundaries/' + merged['filename']
+
+# Save
+merged.to_csv('pool_report_37205.csv', index=False)
+merged[merged['prediction'] == 'pool'].to_csv('pools_only_37205.csv', index=False)
+```
+
+---
+
+## Costs
+
+| Service | Cost |
+|---------|------|
+| Google Maps Static API | ~$2 per 1000 images |
+| Claude Vision API | ~$0.01-0.02 per image |
+
+For a ZIP code with 1000 parcels: ~$15-25 total.
+
+---
+
+## Validation
+
+The output CSV includes:
+- **ImagePath**: Click to open the boundary image locally
+- **GoogleMapsURL**: Click to verify on Google Maps satellite view
+
+Spot-check 10-20 results to verify accuracy before delivering to customer.

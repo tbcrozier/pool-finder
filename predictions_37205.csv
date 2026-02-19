@@ -1,0 +1,301 @@
+raw_response,prediction,confidence,reasoning,confidence_score,filename,filepath
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can clearly see the entire property within the red boundary which includes a house with a dark roof and surrounding yard area, but there are no blue/turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can clearly see the entire property within the red boundary which includes a house with a dark roof and surrounding yard area, but there are no blue/turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,150406.png,images/37205_boundaries/150406.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with surrounding yard areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with surrounding yard areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,150412.png,images/37205_boundaries/150412.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see a large house with extensive landscaping, driveways, and wooded areas inside the red boundary, but there are no visible blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can see a large house with extensive landscaping, driveways, and wooded areas inside the red boundary, but there are no visible blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,153482.png,images/37205_boundaries/153482.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Looking inside the red boundary, I can see a house with surrounding yard areas but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Looking inside the red boundary, I can see a house with surrounding yard areas but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,150410.png,images/37205_boundaries/150410.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows only a house structure with surrounding yard space, but no visible blue or turquoise rectangular/kidney-shaped features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary shows only a house structure with surrounding yard space, but no visible blue or turquoise rectangular/kidney-shaped features that would indicate a swimming pool.",0.9,157024.png,images/37205_boundaries/157024.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Looking inside the red boundary, I can see residential buildings, yards, and various outdoor features, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Looking inside the red boundary, I can see residential buildings, yards, and various outdoor features, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,439278.png,images/37205_boundaries/439278.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the entire property inside the red boundary which includes a large building with parking areas and landscaped grounds, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the entire property inside the red boundary which includes a large building with parking areas and landscaped grounds, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,151535.png,images/37205_boundaries/151535.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with surrounding yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with surrounding yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,150414.png,images/37205_boundaries/150414.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The red boundary contains only a small portion of what appears to be a building structure or paved area, with no visible blue/turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"The red boundary contains only a small portion of what appears to be a building structure or paved area, with no visible blue/turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,207125.png,images/37205_boundaries/207125.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the entire property within the red boundary which includes a house, yard areas, and trees, but there is no rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",no_pool,high,"I can see the entire property within the red boundary which includes a house, yard areas, and trees, but there is no rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",0.9,152188.png,images/37205_boundaries/152188.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows only forested/wooded terrain with trees and natural vegetation, with no visible residential structures or blue/turquoise pool features.",no_pool,high,"The area inside the red boundary shows only forested/wooded terrain with trees and natural vegetation, with no visible residential structures or blue/turquoise pool features.",0.9,181529.png,images/37205_boundaries/181529.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with roofing, some paved areas, and landscaping/yard space, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with roofing, some paved areas, and landscaping/yard space, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,207253.png,images/37205_boundaries/207253.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The red boundary encompasses a commercial building with a large flat roof and surrounding parking areas, with no visible swimming pool features inside the designated area.",no_pool,high,"The red boundary encompasses a commercial building with a large flat roof and surrounding parking areas, with no visible swimming pool features inside the designated area.",0.9,149812.png,images/37205_boundaries/149812.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house structure and yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house structure and yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,150416.png,images/37205_boundaries/150416.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a large house with multiple roof sections, landscaping, and yard areas, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a large house with multiple roof sections, landscaping, and yard areas, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,207284.png,images/37205_boundaries/207284.png
+"CLASSIFICATION: pool
+CONFIDENCE: high
+REASONING: There is a clear rectangular blue/turquoise feature visible in the central courtyard area inside the red boundary, which is characteristic of a swimming pool.",pool,high,"There is a clear rectangular blue/turquoise feature visible in the central courtyard area inside the red boundary, which is characteristic of a swimming pool.",0.9,206819.png,images/37205_boundaries/206819.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see a house with surrounding yard area inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see a house with surrounding yard area inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,207285.png,images/37205_boundaries/207285.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with surrounding yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate the presence of a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with surrounding yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate the presence of a swimming pool.",0.9,207252.png,images/37205_boundaries/207252.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house structure and what appears to be bare dirt or construction area, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house structure and what appears to be bare dirt or construction area, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152065.png,images/37205_boundaries/152065.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the entire property inside the red boundary which contains a large house with multiple roof sections and surrounding landscaped areas, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the entire property inside the red boundary which contains a large house with multiple roof sections and surrounding landscaped areas, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,179974.png,images/37205_boundaries/179974.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Looking inside the red boundary, I can see a house with surrounding yard areas, driveways, and what appears to be landscaping, but there are no blue/turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"Looking inside the red boundary, I can see a house with surrounding yard areas, driveways, and what appears to be landscaping, but there are no blue/turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,427432.png,images/37205_boundaries/427432.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see a residential property with a house, driveway, and landscaped areas including what appears to be a palm tree, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool within the red boundary.",no_pool,high,"I can see a residential property with a house, driveway, and landscaped areas including what appears to be a palm tree, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool within the red boundary.",0.9,208113.png,images/37205_boundaries/208113.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can clearly see the entire property within the red boundary which includes a house with red/brown roofing, yard areas, and driveway, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can clearly see the entire property within the red boundary which includes a house with red/brown roofing, yard areas, and driveway, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,152070.png,images/37205_boundaries/152070.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with roofing, yard areas, and what appears to be a driveway or patio, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with roofing, yard areas, and what appears to be a driveway or patio, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152448.png,images/37205_boundaries/152448.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with a driveway and yard areas, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with a driveway and yard areas, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,430748.png,images/37205_boundaries/430748.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows only grassy/vegetated land with trees and no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,The area inside the red boundary shows only grassy/vegetated land with trees and no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.,0.9,150288.png,images/37205_boundaries/150288.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows only a house structure with surrounding yard/garden areas, but no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary shows only a house structure with surrounding yard/garden areas, but no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,418987.png,images/37205_boundaries/418987.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the entire property inside the red boundary which includes a house with red tile roof, yard areas, and driveway, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the entire property inside the red boundary which includes a house with red tile roof, yard areas, and driveway, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,154749.png,images/37205_boundaries/154749.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Looking inside the red boundary, I can see a house with surrounding yard areas but no distinctive blue/turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"Looking inside the red boundary, I can see a house with surrounding yard areas but no distinctive blue/turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,151962.png,images/37205_boundaries/151962.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see a large residential property with extensive landscaping, trees, and what appears to be a house structure inside the red boundary, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see a large residential property with extensive landscaping, trees, and what appears to be a house structure inside the red boundary, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,208111.png,images/37205_boundaries/208111.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a paved driveway/parking area with multiple dark rectangular structures that appear to be buildings or storage units, but no blue or turquoise rectangular features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a paved driveway/parking area with multiple dark rectangular structures that appear to be buildings or storage units, but no blue or turquoise rectangular features that would indicate a swimming pool.",0.9,208105.png,images/37205_boundaries/208105.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property inside the red boundary which includes a house with complex roofline and surrounding yard area, but there are no visible blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can see the residential property inside the red boundary which includes a house with complex roofline and surrounding yard area, but there are no visible blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,309569.png,images/37205_boundaries/309569.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property inside the red boundary which includes a house, driveway, and yard areas, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",no_pool,high,"I can see the residential property inside the red boundary which includes a house, driveway, and yard areas, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",0.9,309568.png,images/37205_boundaries/309568.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary appears to be an undeveloped or cleared lot with bare earth and some vegetation, but no visible swimming pool or blue/turquoise water features.",no_pool,high,"The area inside the red boundary appears to be an undeveloped or cleared lot with bare earth and some vegetation, but no visible swimming pool or blue/turquoise water features.",0.9,152073.png,images/37205_boundaries/152073.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with surrounding yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with surrounding yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,182118.png,images/37205_boundaries/182118.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a large building with a light-colored roof, surrounding paved areas, and landscaping, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a large building with a light-colored roof, surrounding paved areas, and landscaping, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,155867.png,images/37205_boundaries/155867.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property inside the red boundary which includes a house with dark roofing and surrounding yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the residential property inside the red boundary which includes a house with dark roofing and surrounding yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,154748.png,images/37205_boundaries/154748.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can clearly see the entire property within the red boundary, including the house, driveway, and yard areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can clearly see the entire property within the red boundary, including the house, driveway, and yard areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,150311.png,images/37205_boundaries/150311.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary contains a large building, paved parking area, and some landscaping, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary contains a large building, paved parking area, and some landscaping, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,151543.png,images/37205_boundaries/151543.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the entire property within the red boundary which includes a house with red/brown roofing and surrounding yard areas, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",no_pool,high,"I can see the entire property within the red boundary which includes a house with red/brown roofing and surrounding yard areas, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",0.9,152089.png,images/37205_boundaries/152089.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see a residential property with a house, driveway, and yard area inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see a residential property with a house, driveway, and yard area inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,181428.png,images/37205_boundaries/181428.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary appears to be undeveloped land with bare soil, vegetation, and trees, with no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary appears to be undeveloped land with bare soil, vegetation, and trees, with no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152060.png,images/37205_boundaries/152060.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see what appears to be a demolished or cleared building foundation with exposed concrete/rubble, surrounded by grass, but no swimming pool is visible.",no_pool,high,"Inside the red boundary, I can see what appears to be a demolished or cleared building foundation with exposed concrete/rubble, surrounded by grass, but no swimming pool is visible.",0.9,151541.png,images/37205_boundaries/151541.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property inside the red boundary which includes a house and yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the residential property inside the red boundary which includes a house and yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,150313.png,images/37205_boundaries/150313.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the property inside the red boundary contains a house with a red/brown roof and surrounding yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can see the property inside the red boundary contains a house with a red/brown roof and surrounding yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,151965.png,images/37205_boundaries/151965.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with a roof, yard areas, and what appears to be some landscaping or garden areas, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with a roof, yard areas, and what appears to be some landscaping or garden areas, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152075.png,images/37205_boundaries/152075.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows a house with foundation/construction work and bare soil in the backyard area, but no visible swimming pool structure.",no_pool,high,"The area inside the red boundary shows a house with foundation/construction work and bare soil in the backyard area, but no visible swimming pool structure.",0.9,155861.png,images/37205_boundaries/155861.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Looking inside the red boundary, I can see a house with a red/brown roof, some yard areas, and what appears to be a driveway or patio area, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Looking inside the red boundary, I can see a house with a red/brown roof, some yard areas, and what appears to be a driveway or patio area, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152087.png,images/37205_boundaries/152087.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The red boundary contains only undeveloped land with bare soil, sparse vegetation, and no structures or swimming pool features visible.",no_pool,high,"The red boundary contains only undeveloped land with bare soil, sparse vegetation, and no structures or swimming pool features visible.",0.9,151968.png,images/37205_boundaries/151968.png
+"CLASSIFICATION: pool
+CONFIDENCE: high
+REASONING: There is a clear rectangular blue/turquoise feature visible in the backyard area inside the red boundary, which is the typical color and shape of a residential swimming pool.",pool,high,"There is a clear rectangular blue/turquoise feature visible in the backyard area inside the red boundary, which is the typical color and shape of a residential swimming pool.",0.9,309563.png,images/37205_boundaries/309563.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with a reddish/brown roof and surrounding yard area, but there are no visible blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with a reddish/brown roof and surrounding yard area, but there are no visible blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,309562.png,images/37205_boundaries/309562.png
+"CLASSIFICATION: pool
+CONFIDENCE: high
+REASONING: There is a clear oval-shaped blue/turquoise swimming pool visible in the backyard area within the red boundary.",pool,high,There is a clear oval-shaped blue/turquoise swimming pool visible in the backyard area within the red boundary.,0.9,181784.png,images/37205_boundaries/181784.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see only a small section of what appears to be a white/light-colored rooftop or structure, with no visible blue or turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see only a small section of what appears to be a white/light-colored rooftop or structure, with no visible blue or turquoise features that would indicate a swimming pool.",0.9,207216.png,images/37205_boundaries/207216.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see a large house with surrounding yard area inside the red boundary, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can see a large house with surrounding yard area inside the red boundary, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,181785.png,images/37205_boundaries/181785.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house structure with what appears to be a driveway and yard areas, but no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house structure with what appears to be a driveway and yard areas, but no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,309561.png,images/37205_boundaries/309561.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property clearly within the red boundary, including the house, driveway, and yard areas, but there is no visible swimming pool or blue/turquoise rectangular or kidney-shaped feature that would indicate a pool.",no_pool,high,"I can see the residential property clearly within the red boundary, including the house, driveway, and yard areas, but there is no visible swimming pool or blue/turquoise rectangular or kidney-shaped feature that would indicate a pool.",0.9,154976.png,images/37205_boundaries/154976.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a residential property with a house, yard areas, and what appears to be disturbed or excavated soil, but no blue/turquoise rectangular or kidney-shaped swimming pool is visible.",no_pool,high,"Inside the red boundary, I can see a residential property with a house, yard areas, and what appears to be disturbed or excavated soil, but no blue/turquoise rectangular or kidney-shaped swimming pool is visible.",0.9,154751.png,images/37205_boundaries/154751.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows a house with surrounding yard space, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary shows a house with surrounding yard space, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152081.png,images/37205_boundaries/152081.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The red boundary appears to outline only a small section of road/driveway area at the bottom left of the image, and does not include any of the residential property with the visible swimming pool, which is clearly outside the red boundary line.",no_pool,high,"The red boundary appears to outline only a small section of road/driveway area at the bottom left of the image, and does not include any of the residential property with the visible swimming pool, which is clearly outside the red boundary line.",0.9,181795.png,images/37205_boundaries/181795.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows a house with roofing, some yard space, and trees, but no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary shows a house with roofing, some yard space, and trees, but no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,309564.png,images/37205_boundaries/309564.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with roofing, yard areas, and what appears to be some construction or excavation work, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with roofing, yard areas, and what appears to be some construction or excavation work, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152080.png,images/37205_boundaries/152080.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property clearly within the red boundary, which includes houses, yards, and landscaping, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",no_pool,high,"I can see the residential property clearly within the red boundary, which includes houses, yards, and landscaping, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",0.9,154750.png,images/37205_boundaries/154750.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house structure and surrounding yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house structure and surrounding yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,154977.png,images/37205_boundaries/154977.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the entire property within the red boundary which includes a house, yard areas, and some trees, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the entire property within the red boundary which includes a house, yard areas, and some trees, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,150287.png,images/37205_boundaries/150287.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house structure and surrounding yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate the presence of a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house structure and surrounding yard area, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate the presence of a swimming pool.",0.9,154975.png,images/37205_boundaries/154975.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property inside the red boundary which includes buildings, landscaping, and outdoor areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can see the residential property inside the red boundary which includes buildings, landscaping, and outdoor areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,207007.png,images/37205_boundaries/207007.png
+"CLASSIFICATION: pool
+CONFIDENCE: high
+REASONING: There is a clear oval/kidney-shaped blue water feature visible in the backyard area inside the red boundary, which is characteristic of a residential swimming pool.",pool,high,"There is a clear oval/kidney-shaped blue water feature visible in the backyard area inside the red boundary, which is characteristic of a residential swimming pool.",0.9,182275.png,images/37205_boundaries/182275.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see a house with surrounding yard area inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see a house with surrounding yard area inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152190.png,images/37205_boundaries/152190.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Looking inside the red boundary, I can see a house with surrounding yard area but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Looking inside the red boundary, I can see a house with surrounding yard area but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152184.png,images/37205_boundaries/152184.png
+"CLASSIFICATION: pool
+CONFIDENCE: high
+REASONING: There is a clear kidney-shaped blue/turquoise swimming pool visible in the backyard area of the property within the red boundary.",pool,high,There is a clear kidney-shaped blue/turquoise swimming pool visible in the backyard area of the property within the red boundary.,0.9,153503.png,images/37205_boundaries/153503.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the entire property within the red boundary clearly, including the house, driveway, yard areas, and some trees, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the entire property within the red boundary clearly, including the house, driveway, yard areas, and some trees, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,146907.png,images/37205_boundaries/146907.png
+"CLASSIFICATION: pool
+CONFIDENCE: high
+REASONING: There is a clear rectangular blue/turquoise swimming pool visible in the backyard area within the red boundary.",pool,high,There is a clear rectangular blue/turquoise swimming pool visible in the backyard area within the red boundary.,0.9,207263.png,images/37205_boundaries/207263.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the property inside the red boundary contains a house with roof areas, yard space with trees and landscaping, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the property inside the red boundary contains a house with roof areas, yard space with trees and landscaping, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,150382.png,images/37205_boundaries/150382.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary appears to be entirely wooded/vegetated land with dense tree coverage and no visible swimming pool or any other man-made recreational features.",no_pool,high,The area inside the red boundary appears to be entirely wooded/vegetated land with dense tree coverage and no visible swimming pool or any other man-made recreational features.,0.9,146906.png,images/37205_boundaries/146906.png
+"CLASSIFICATION: pool
+CONFIDENCE: high
+REASONING: There is a clear rectangular blue/turquoise swimming pool with surrounding deck area located in the center courtyard of the building complex inside the red boundary.",pool,high,There is a clear rectangular blue/turquoise swimming pool with surrounding deck area located in the center courtyard of the building complex inside the red boundary.,0.9,151117.png,images/37205_boundaries/151117.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary appears to be entirely covered with brown/reddish dirt or bare ground with some scattered vegetation and trees, but no visible blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary appears to be entirely covered with brown/reddish dirt or bare ground with some scattered vegetation and trees, but no visible blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,206552.png,images/37205_boundaries/206552.png
+"CLASSIFICATION: pool
+CONFIDENCE: high
+REASONING: There is a clear rectangular blue/turquoise feature visible in the backyard area inside the red boundary that appears to be a swimming pool.",pool,high,There is a clear rectangular blue/turquoise feature visible in the backyard area inside the red boundary that appears to be a swimming pool.,0.9,208225.png,images/37205_boundaries/208225.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with surrounding yard area and bare/disturbed soil, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with surrounding yard area and bare/disturbed soil, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152193.png,images/37205_boundaries/152193.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property within the red boundary which includes buildings, driveways, and yard areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can see the residential property within the red boundary which includes buildings, driveways, and yard areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,181526.png,images/37205_boundaries/181526.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property clearly within the red boundary, which includes the house and yard areas, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",no_pool,high,"I can see the residential property clearly within the red boundary, which includes the house and yard areas, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",0.9,150418.png,images/37205_boundaries/150418.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the property inside the red boundary contains a house with a red roof and yard areas, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the property inside the red boundary contains a house with a red roof and yard areas, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152179.png,images/37205_boundaries/152179.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see a house with surrounding yard area inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see a house with surrounding yard area inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152192.png,images/37205_boundaries/152192.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the residential property inside the red boundary which includes a house and yard areas, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the residential property inside the red boundary which includes a house and yard areas, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,208542.png,images/37205_boundaries/208542.png
+"CLASSIFICATION: pool
+CONFIDENCE: high
+REASONING: There is a clear rectangular blue/turquoise feature visible in the backyard area inside the red boundary, which has the characteristic size, shape, and color of a residential swimming pool.",pool,high,"There is a clear rectangular blue/turquoise feature visible in the backyard area inside the red boundary, which has the characteristic size, shape, and color of a residential swimming pool.",0.9,179459.png,images/37205_boundaries/179459.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house structure and surrounding yard area with brown/dirt surfaces and some debris or construction materials, but no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house structure and surrounding yard area with brown/dirt surfaces and some debris or construction materials, but no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,152182.png,images/37205_boundaries/152182.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows primarily open land with trees, vegetation, and what appears to be a large house, but no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary shows primarily open land with trees, vegetation, and what appears to be a large house, but no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,151266.png,images/37205_boundaries/151266.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the entire property within the red boundary clearly, including the backyard areas, and there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can see the entire property within the red boundary clearly, including the backyard areas, and there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,425710.png,images/37205_boundaries/425710.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house structure and surrounding yard area, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate the presence of a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house structure and surrounding yard area, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate the presence of a swimming pool.",0.9,150420.png,images/37205_boundaries/150420.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can clearly see the entire property within the red boundary including the house, yard areas, and landscaping, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can clearly see the entire property within the red boundary including the house, yard areas, and landscaping, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,150408.png,images/37205_boundaries/150408.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the entire property within the red boundary which includes a house with surrounding yard areas, but there are no blue or turquoise rectangular/kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can see the entire property within the red boundary which includes a house with surrounding yard areas, but there are no blue or turquoise rectangular/kidney-shaped features that would indicate a swimming pool.",0.9,423837.png,images/37205_boundaries/423837.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see a large house with surrounding landscaped areas and trees inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see a large house with surrounding landscaped areas and trees inside the red boundary, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,151267.png,images/37205_boundaries/151267.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The red boundary contains only wooded/vegetated land with trees and natural ground cover, with no visible structures or blue/turquoise features that would indicate a swimming pool.",no_pool,high,"The red boundary contains only wooded/vegetated land with trees and natural ground cover, with no visible structures or blue/turquoise features that would indicate a swimming pool.",0.9,152432.png,images/37205_boundaries/152432.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see two houses with their surrounding yards, driveways, and landscaping, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see two houses with their surrounding yards, driveways, and landscaping, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152181.png,images/37205_boundaries/152181.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a residential property with a house, circular driveway, and landscaped areas, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a residential property with a house, circular driveway, and landscaped areas, but there is no visible rectangular or kidney-shaped blue/turquoise feature that would indicate a swimming pool.",0.9,150184.png,images/37205_boundaries/150184.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the large residential property inside the red boundary with a house, driveway, and landscaped areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",no_pool,high,"I can see the large residential property inside the red boundary with a house, driveway, and landscaped areas, but there are no blue or turquoise rectangular or kidney-shaped features that would indicate a swimming pool.",0.9,150386.png,images/37205_boundaries/150386.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with surrounding yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with surrounding yard area, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,150422.png,images/37205_boundaries/150422.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows residential buildings, driveways, wooded areas, and what appears to be a parking area, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary shows residential buildings, driveways, wooded areas, and what appears to be a parking area, but no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,150185.png,images/37205_boundaries/150185.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: I can see the property inside the red boundary contains a house with surrounding yard area, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"I can see the property inside the red boundary contains a house with surrounding yard area, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,207688.png,images/37205_boundaries/207688.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: Inside the red boundary, I can see a house with a driveway and yard areas, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"Inside the red boundary, I can see a house with a driveway and yard areas, but there are no rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,152194.png,images/37205_boundaries/152194.png
+"CLASSIFICATION: no_pool
+CONFIDENCE: high
+REASONING: The area inside the red boundary shows a house with surrounding yard space, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",no_pool,high,"The area inside the red boundary shows a house with surrounding yard space, but there are no visible rectangular or kidney-shaped blue/turquoise features that would indicate a swimming pool.",0.9,451332.png,images/37205_boundaries/451332.png
